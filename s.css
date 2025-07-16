@@ -1,0 +1,215 @@
+body {
+   margin: 0;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 10%;
+    
+}
+[id^="box"] {
+    border: 1px black solid;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+}
+[id^="b"] {
+    border: 1px black solid;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+}
+[id^="o"] , [id^="q"] , [id^="w"] , [id^="e"] , [id^="r"]{
+    border: 1px black solid;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: white;
+}
+@keyframes nok {
+    0% {
+        background-color: white;
+    }
+    50% {
+        background-color: pink;
+    }
+    100% {
+        background-color: red;
+    }
+}
+#b2 {
+    animation: nok 0.5s linear forwards 0.25s ;
+}
+#o2 {
+    animation: nok 0.5s linear forwards 0.5s ;
+}
+#q2 {
+    animation: nok 0.5s linear forwards 0.75s ;
+}
+#w2 {
+    animation: nok 0.5s linear forwards 1s ;
+}
+#e2 {
+    animation: nok 0.5s linear forwards 1.25s ;
+}
+#q3 {
+    animation: nok 0.5s linear forwards 1.5s ;
+}
+#q4 {
+    animation: nok 0.5s linear forwards 1.75s ;
+}
+#b5 {
+    animation: nok 0.5s linear forwards 2s ;
+}
+#o5 {
+    animation: nok 0.5s linear forwards 2.25s ;
+}
+#q5 {
+    animation: nok 0.5s linear forwards 2.75s ;
+}
+#w5 {
+    animation: nok 0.5s linear forwards 3s ;
+}
+#e5 {
+    animation: nok 0.5s linear forwards 3.25s ;
+}
+#b7 {
+    animation: nok 0.5s linear forwards 3.5s ;
+}
+#o7 {
+    animation: nok 0.5s linear forwards 3.75s ;
+}
+#q7 {
+    animation: nok 0.5s linear forwards 4s ;
+}
+#w7 {
+    animation: nok 0.5s linear forwards 4.25s ;
+}
+#e7 {
+    animation: nok 0.5s linear forwards 4.5s ;
+}
+#b9 {
+    animation: nok 0.5s linear forwards 4.75s ;
+}
+#o9 {
+    animation: nok 0.5s linear forwards 5s ;
+}
+#q9 {
+    animation: nok 0.5s linear forwards 5.25s ;
+}
+#w9 {
+    animation: nok 0.5s linear forwards 5.5s ;
+}
+#e9 {
+    animation: nok 0.5s linear forwards 5.75s ;
+}
+#b10 {
+    animation: nok 0.5s linear forwards 6s ;
+}
+#b11 {
+    animation: nok 0.5s linear forwards 6.25s ;
+}
+#o11 {
+    animation: nok 0.5s linear forwards 6.5s ;
+}
+#q11 {
+    animation: nok 0.5s linear forwards 6.75s ;
+}
+#q10 {
+    animation: nok 0.5s linear forwards 7s ;
+}
+#b13 {
+    animation: nok 0.5s linear forwards 7.25s ;
+}
+#o13 {
+    animation: nok 0.5s linear forwards 7.5s ;
+}
+#q13 {
+    animation: nok 0.5s linear forwards 7.75s ;
+}
+#w13 {
+    animation: nok 0.5s linear forwards 8s ;
+}
+#e13 {
+    animation: nok 0.5s linear forwards 8.25s ;
+}
+#b14 {
+    animation: nok 0.5s linear forwards 8.5s ;
+}
+#b15 {
+    animation: nok 0.5s linear forwards 8.75s ;
+}
+#o15 {
+    animation: nok 0.5s linear forwards 9s ;
+}
+#q15 {
+    animation: nok 0.5s linear forwards 9.25s ;
+}
+#q14 {
+    animation: nok 0.5s linear forwards 9.5s ;
+}
+#b17 {
+    animation: nok 0.5s linear forwards 9.75s ;
+}
+#o17 {
+    animation: nok 0.5s linear forwards 10s ;
+}
+#q17 {
+    animation: nok 0.5s linear forwards 10.25s ;
+}
+#w17 {
+    animation: nok 0.5s linear forwards 10.5s ;
+}
+#e17 {
+    animation: nok 0.5s linear forwards 10.75s ;
+}
+#e18 , #b18 {
+    animation: nok 0.5s linear forwards 11s ;
+}
+#b19 {
+    animation: nok 0.5s linear forwards 11.25s ;
+}
+#o19 {
+    animation: nok 0.5s linear forwards 11.5s ;
+}
+#q19 {
+    animation: nok 0.5s linear forwards 11.75s ;
+}
+#w19 {
+    animation: nok 0.5s linear forwards 12s ;
+}
+#e19 {
+    animation: nok 0.5s linear forwards 12.25s ;
+}
+@media (max-width:480px) {
+    [id^="box"] , [id^="b"] , [id^="o"] , [id^="q"] , [id^="w"] , [id^="e"] , [id^="r"]{
+        width: 13px;
+        height: 13px;
+    }
+}
+.nq {
+  position: relative;
+  width: 300px;
+  height: 100px;
+}
+
+.swap {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+}
+#nw {
+    position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
+    border-radius: 10px;
+    background-color: rgb(204, 204, 247);
+}
+body {
+    background-color: rgb(200, 231, 221);
+}
+#swap2 {
+    display: none;
+}
